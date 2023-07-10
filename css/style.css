@@ -43,6 +43,7 @@
     font-size: 16px;
     border-radius: 8px;
     padding: 12px 18px;
+    cursor: pointer;
 }
 
 .featured-flower{
@@ -106,10 +107,21 @@
 }
 
 .hot-deal{
+    margin-top: 120px; 
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 60px;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.hot-deal-text{
+    margin-top: 60px;    
+}
+
+.hot-deal-photo{
+    margin-top: 60px;
+    margin-bottom: 40px;
 }
 
 .hot-deal-text h3{
@@ -118,14 +130,28 @@
     text-align: center;
 }
 
+.hot-deal-text span{
+    color: red;
+}
+
 .hot-deal-text p{
+    margin-top: 30px;
     font-size: 16px;
     text-align: center;
 }
 
 .hot-deal-text button{
-    text-align: center;
+    margin: 20px auto 10px 220px;
 }
+
+.hot-deal-img{
+    width: 300px;
+    height: 400px;
+}
+
+
+
+
 
 
 
