@@ -9,12 +9,12 @@
     justify-content: space-around;
     align-items: center;
     background: rgba(229, 84, 115, 0.10);
-    height: 100vh;
+    height: fit-content;
 }
 
 .banner-text{
-    margin-left: 120px;
-    width: 50%;
+    margin-left: 180px;
+    width: 40%;
 }
 
 .banner-text-header{
@@ -30,12 +30,12 @@
 
 .banner-photo{
     margin-right: 120px;
-    margin-top: 90px;
+    margin-top: 70px;
 }
 
 .banner-img{
     width: 500px;
-    height: auto;
+    height: fit-content;
 }
 
 .btn-primary{
