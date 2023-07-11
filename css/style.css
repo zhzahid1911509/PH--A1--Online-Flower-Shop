@@ -3,7 +3,7 @@
     padding: 0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+/* banner related styles */
 .banner-content{
     display: flex;
     justify-content: space-around;
@@ -37,7 +37,7 @@
     width: 500px;
     height: fit-content;
 }
-
+/* common button style */
 .btn-primary{
     background-color: #E55473;
     color: azure;
@@ -52,7 +52,7 @@
     color: #E55473;
     box-shadow: 0 0 1px 2px #E55473;
 }
-
+/* featured flowers part related styles */
 .featured-flower{
     margin-bottom: 60px;
 }
@@ -63,10 +63,10 @@
     margin: 120px 0 30px;
 }
 
-.featured-flower-boody{
+.featured-flower-body{ 
     font-size: 16px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .featured-flower-photos{
@@ -100,7 +100,7 @@
     width: 220px;
     height: 328px; 
 }
-
+/* service info related styles */
 .service-info{
     display: flex;
     justify-content: center;
@@ -118,7 +118,7 @@
     text-align: center;
     margin-bottom: 30px;
 }
-
+/* hot deals part related styles */
 .hot-deal{
     margin-top: 120px; 
     display: flex;
@@ -161,13 +161,11 @@
     width: 300px;
     height: 400px;
 }
-
+/* instagram part related styles */
 .instagram-photos{
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-top: 30px; 
-    margin-bottom: 60px;
     margin: 30px 240px 60px 240px;
 }
 
@@ -175,9 +173,9 @@
     width: 300px;
     height: auto;
 }
-
+/* subscribe part related style */
 .subscribe{
-    background-image: url('../images/Flower Asset/Rectangle 9.png'); 
+    background-image: url('../flower_asset/Rectangle 9.png'); 
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -217,7 +215,7 @@
 .subscribe-body input[type=email]:focus{
     box-shadow: 0 0 1px 2px #E55473;
 }
-
+/* footer related styles */
 .footer{
     text-align: center;
     background-color: black;
